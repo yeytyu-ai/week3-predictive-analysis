@@ -1,0 +1,68 @@
+Week 3 - Data Modeling and Predictive Analysis
+
+Project Overview
+
+This project uses a simulated beauty products dataset to explore data preprocessing, predictive modeling, and visualization.
+
+Objectives
+
+- Clean and prepare the dataset.
+- Build a Decision Tree classification model.
+- Classify product ratings as High or Low.
+- Evaluate the model using test accuracy and 5-fold cross-validation.
+- Visualize rating categories and product data.
+
+Dataset
+
+The dataset contains the following columns:
+
+- "price": Product price
+- "rating": Product rating
+- "reviews": Number of reviews
+- "category": Beauty product category
+
+Note: The dataset is simulated for educational purposes and does not represent real customer or product data.
+
+Files
+
+- "beauty_products.csv" — Original simulated dataset
+- "cleaned_beauty_products.csv" — Preprocessed dataset
+- "preprocessing.py" — Data cleaning code
+- "predictive_analysis.py" — Model training and evaluation
+- "visualization.py" — Visualization code
+- "confusion_matrix.png" — Model evaluation chart, if uploaded
+- "model_accuracy.png" — Accuracy chart, if uploaded
+- "Week3_Predictive_Analysis_Report.docx" — Project report
+
+Tools and Libraries
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+How to Run
+
+Install the required libraries:
+
+"pip install pandas matplotlib seaborn scikit-learn"
+
+Run the scripts in this order:
+
+1. "python preprocessing.py"
+2. "python predictive_analysis.py"
+3. "python visualization.py"
+
+Make sure the CSV files are in the same folder as the Python scripts.
+
+Model Details
+
+- Algorithm: Decision Tree Classifier
+- Maximum depth: 3
+- Train-test split: 75% training and 25% testing
+- Cross-validation: 5-fold
+
+Limitations
+
+The dataset is small and simulated. Model performance may not generalize to real-world data. The results should be treated as a learning demonstration, not a reliable business prediction.
